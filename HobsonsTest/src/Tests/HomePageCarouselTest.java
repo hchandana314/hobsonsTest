@@ -24,7 +24,7 @@ public class HomePageCarouselTest {
 	public void setup() throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Chandu\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Test\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 

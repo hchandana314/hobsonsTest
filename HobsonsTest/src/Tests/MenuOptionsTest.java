@@ -25,7 +25,7 @@ public class MenuOptionsTest {
 	@BeforeSuite
 	public void setup() {
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Chandu\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Test\\chromedriver_win32\\chromedriver.exe");
 		driver = new ChromeDriver();
 
 		// Launch Website
